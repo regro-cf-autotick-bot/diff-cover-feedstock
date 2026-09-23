@@ -19,8 +19,8 @@ build:
 
 requirements:
   host:
+    - hatchling
     - pip
-    - poetry-core
     - python {{ python_min }}
   run:
     - jinja2 >=2.7.1
